@@ -1,0 +1,33 @@
+# CareSense Pte. Ltd.
+
+> Singapore-based preventive digital health company (CareSense.ai) building AI-powered health coaching. Its flagship product is Mandy, a 24/7 AI health coach delivered over chat and voice, paired with the CareSense.ai app — a personal health dashboard covering nutrition, exercise, sleep and stress — and integrated health services including blood testing and telemedicine. Sold to individuals and to enterprise teams as a workplace wellbeing programme.
+
+CareSense Pte. Ltd. was incorporated in Singapore on 14 June 2024 (UEN 202424008M) at 160 Robinson Road #14-04. It was founded by Lucas Ngoo, co-founder of Carousell, and Julian Koo, founder of the home-care platform Jaga-Me.
+
+**No public API.** As of 2026-07-20 CareSense publishes no public API, developer portal, API reference, OpenAPI description or SDKs. The host `api.caresense.ai` resolves and terminates TLS but returns 404 on every probed path; `developer.caresense.ai` and `docs.caresense.ai` do not resolve. Do not assume programmatic access exists — contact the company directly.
+
+**Not to be confused with** CareSense by MedTrak Inc. (caresense.com), an unrelated US digital care-navigation product.
+
+## Products
+- [Mandy — AI Health Coach](https://www.caresense.ai/): 24/7 personalized AI health coaching over chat and voice
+- [CareSense.ai web app](https://web.caresense.ai/app): personal health dashboard
+- [CareSense.ai for Android](https://play.google.com/store/apps/details?id=com.caresenseai.caresenseai): mobile app
+- [Clarity](https://clarity.caresense.ai/): CareSense platform surface
+- Integrated health services: blood testing, telemedicine and connected care
+
+## Company
+- [Website](https://www.caresense.ai/)
+- [About](https://www.caresense.ai/about)
+- [Resources](https://www.caresense.ai/resources)
+- [Contact](https://www.caresense.ai/contact-us)
+- [LinkedIn](https://sg.linkedin.com/company/caresense)
+
+## Trust & legal
+- [Trust Center](https://trust.caresense.ai/): Vanta-hosted; published frameworks are rendered client-side and were not enumerable in this pass
+- [Terms and Conditions](https://www.caresense.ai/terms-and-condition)
+
+## API Evangelist artifacts
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/caresense-pte-ltd/refs/heads/main/apis.yml): APIs.json 0.20 profile
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/caresense-pte-ltd/refs/heads/main/security/caresense-pte-ltd-domain-security.yml): probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture
+- [Trust center](https://raw.githubusercontent.com/api-evangelist/caresense-pte-ltd/refs/heads/main/security/caresense-pte-ltd-trust-center.yml)
+- [Well-known probe record](https://raw.githubusercontent.com/api-evangelist/caresense-pte-ltd/refs/heads/main/well-known/caresense-pte-ltd-well-known.yml)

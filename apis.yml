@@ -1,20 +1,69 @@
 aid: caresense-pte-ltd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/caresense-pte-ltd.png
 name: Caresense Pte. Ltd.
-description: Caresense Pte. Ltd. is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'CareSense Pte. Ltd. (CareSense.ai) is a Singapore-based preventive digital health company
+  building AI-powered health coaching. Its flagship product is Mandy, a 24/7 AI health coach delivered
+  over chat and voice, paired with the CareSense.ai app — a personal health dashboard covering nutrition,
+  exercise, sleep and stress — and integrated health services including blood testing and telemedicine.
+  The company sells both to individuals and to enterprise teams as a workplace wellbeing programme.
+  CareSense was incorporated in Singapore on 14 June 2024 (UEN 202424008M), registered at 160 Robinson
+  Road #14-04, and was founded by Lucas Ngoo, co-founder of Carousell, and Julian Koo, founder of the
+  home-care platform Jaga-Me. As of this enrichment pass CareSense publishes no public API, developer
+  portal, API documentation or SDKs; its technology surface is consumer and enterprise applications
+  fronted by a Vanta-hosted trust center.'
 url: https://raw.githubusercontent.com/api-evangelist/caresense-pte-ltd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-backed-by-note: 'UNVERIFIED for this company. Public sources associate 500 Global with Carousell,
+  the prior company co-founded by CareSense founder Lucas Ngoo — not with CareSense Pte. Ltd. itself.
+  No CareSense funding round naming 500 Global was found during enrichment. Treat the backing claim as
+  a portfolio lead pending confirmation.'
+x-identity-correction: 'The original stub listed https://caresense.com as the website. That domain
+  belongs to a different, unrelated company: CareSense by MedTrak Inc. (US, Pennsylvania), a digital
+  care-navigation and patient-engagement product. The Singapore entity CareSense Pte. Ltd. operates at
+  https://www.caresense.ai/. Corrected 2026-07-20.'
+x-company:
+  country: Singapore
+  registration_number: 202424008M
+  incorporated: '2024-06-14'
+  address: 160 Robinson Road #14-04, Singapore
+  founders:
+  - Lucas Ngoo
+  - Julian Koo
+x-tier: profiled
+x-tier-reason: no-public-api-surface
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Health
+- Digital Health
+- Artificial Intelligence
+- Health Coaching
+- Preventive Health
+- Telemedicine
+- Wellness
+- Singapore
+- Mobile Applications
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +72,28 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://caresense.com
+  url: https://www.caresense.ai/
+- type: TermsOfService
+  url: https://www.caresense.ai/terms-and-condition
+- type: Support
+  url: https://www.caresense.ai/contact-us
+- type: SignUp
+  url: https://web.caresense.ai/app
+- type: TrustCenter
+  url: security/caresense-pte-ltd-trust-center.yml
+- type: DomainSecurity
+  url: security/caresense-pte-ltd-domain-security.yml
+- type: LLMsTxt
+  url: llms/caresense-pte-ltd-llms.txt
+- type: About
+  url: https://www.caresense.ai/about
+- type: Resources
+  url: https://www.caresense.ai/resources
+- type: LinkedIn
+  url: https://sg.linkedin.com/company/caresense
+- type: Application
+  name: CareSense.ai for Android
+  url: https://play.google.com/store/apps/details?id=com.caresenseai.caresenseai
+- type: Application
+  name: CareSense.ai web app
+  url: https://web.caresense.ai/app

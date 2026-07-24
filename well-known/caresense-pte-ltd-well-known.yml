@@ -1,0 +1,49 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of the CareSense.ai hosts
+result: none
+note: 'No /.well-known/ discovery documents are published. Recorded so later runs do not re-probe
+  blindly. api.caresense.ai resolves and terminates TLS but returns 404 on every probed path, so there
+  is no publicly documented API surface to discover.'
+hosts:
+- host: https://www.caresense.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://caresense.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+- host: https://api.caresense.ai
+  documents:
+  - path: /
+    status: 404
+  - path: /health
+    status: 404
+  - path: /v1
+    status: 404
+  - path: /docs
+    status: 404
+  - path: /openapi.json
+    status: 404
+subdomains_probed:
+- host: https://trust.caresense.ai/
+  status: 200
+- host: https://clarity.caresense.ai/
+  status: 200
+- host: https://web.caresense.ai/app
+  status: 200
+- host: https://developer.caresense.ai/
+  status: unresolved
+- host: https://docs.caresense.ai/
+  status: unresolved

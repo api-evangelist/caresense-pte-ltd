@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+url: https://trust.caresense.ai/
+platform: Vanta Trust Center
+status: 200
+certifications: []
+certifications_note: 'The trust center is confirmed live and is a hosted Vanta Trust Center, but its
+  contents are rendered client-side by JavaScript (the served HTML is a 3.3 KB application shell) and
+  the Vanta trust-report API returns 401 without a token. No named certification (SOC 2, ISO 27001,
+  HIPAA, PDPA, GDPR) could therefore be verified during this pass, so none are recorded. Re-run with a
+  headless browser to enumerate the published frameworks and documents.'
+evidence:
+- source: https://trust.caresense.ai/
+  kind: http-probe
+  detail: HTTP 200
+- source: https://trust.caresense.ai/
+  kind: html-signature
+  detail: 'assets.vanta.com trust-report bundle; <link rel="canonical" href="https://trust.caresense.ai">;
+    og:title "Trust Center"'
+- source: https://www.caresense.ai/
+  kind: site-link
+  detail: homepage links "Trust & Data Protection" to https://trust.caresense.ai/
