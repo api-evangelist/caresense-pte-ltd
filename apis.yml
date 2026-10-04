@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/caresense-pte-ltd.png
-name: Caresense Pte. Ltd.
+name: Caresense
 description: 'CareSense Pte. Ltd. (CareSense.ai) is a Singapore-based preventive digital health company
   building AI-powered health coaching. Its flagship product is Mandy, a 24/7 AI health coach delivered
   over chat and voice, paired with the CareSense.ai app — a personal health dashboard covering nutrition,
@@ -74,7 +74,7 @@ tags:
 - Telehealth
 - Wellness
 - Singapore
-- Mobile Applications
+- Mobile App
 tags_raw:
 - Company
 - Health
@@ -119,3 +119,4 @@ common:
 - type: Application
   name: CareSense.ai web app
   url: https://web.caresense.ai/app
+x-legal-name: Caresense Pte. Ltd.
